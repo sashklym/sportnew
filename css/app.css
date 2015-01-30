@@ -1,0 +1,88 @@
+/* Eric Meyer's CSS Reset */
+/* line 14, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 24, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 27, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+body {
+  line-height: 1; }
+
+/* line 30, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 33, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 37, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 41, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* End of Eric Meyer's CSS Reset */
+/* line 47, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+input:focus, textarea:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+
+/* line 50, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+a {
+  text-decoration: none; }
+
+/* line 51, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+a:hover {
+  text-decoration: underline; }
+
+/* line 53, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+/* line 57, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; }
+
+/* line 61, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px; }
+
+/* line 65, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: #444444; }
+
+/* line 70, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+body {
+  font: 12px/18px Arial, sans-serif;
+  width: 100%; }
+
+/* line 74, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+.clr {
+  clear: both; }
+
+/* line 75, C:/Users/Dev/Dropbox/Texotdel/New-Sport/templates/scss/app.scss */
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  position: relative; }
+
+/*# sourceMappingURL=app.css.map */
